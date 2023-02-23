@@ -46,10 +46,13 @@ class LocationManager : NSObject{
         //Calulate distance of each region's center to currentLocation
         for region in allRegions{
             let circularRegion = region as! CLCircularRegion
-            let distance = currentLocation!.distance(from: CLLocation(latitude: circularRegion.center.latitude, longitude: circularRegion.center.longitude))
+            guard let currentLocation = self.currentLocation else {
+                return
+            }
+            let distance = currentLocation.distance(from: CLLocation(latitude: circularRegion.center.latitude, longitude: circularRegion.center.longitude))
             allDistance.append(distance)
         }
-        // a Array of Tuples
+
         let distanceOfEachRegionToCurrentLocation = zip(allRegions, allDistance)
 
         //sort and get 20 closest

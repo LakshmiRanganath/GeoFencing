@@ -51,7 +51,7 @@
 		405197F029A63551004E8967 /* GeoFencingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoFencingUITests.swift; sourceTree = "<group>"; };
 		405197F229A63551004E8967 /* GeoFencingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoFencingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4051980129A729E7004E8967 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
-		4051980329A72A9A004E8967 /* LocationsForSimulation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = LocationsForSimulation.gpx; path = ../../Downloads/LocationsForSimulation.gpx; sourceTree = "<group>"; };
+		4051980429A74C45004E8967 /* LocationsForSimulation.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = LocationsForSimulation.gpx; path = ../LocationsForSimulation.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +82,7 @@
 		405197C329A6354E004E8967 = {
 			isa = PBXGroup;
 			children = (
-				4051980329A72A9A004E8967 /* LocationsForSimulation.gpx */,
+				4051980429A74C45004E8967 /* LocationsForSimulation.gpx */,
 				405197CE29A6354E004E8967 /* GeoFencing */,
 				405197E529A63551004E8967 /* GeoFencingTests */,
 				405197EF29A63551004E8967 /* GeoFencingUITests */,

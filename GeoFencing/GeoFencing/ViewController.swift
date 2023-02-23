@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         pin.coordinate = location.coordinate
         // set camera to zoom in
         mapView.setRegion(MKCoordinateRegion(center: location.coordinate,
-                                         span: MKCoordinateSpan(latitudeDelta: 0.7, longitudeDelta: 0.7)),
+                                             span: MKCoordinateSpan(latitudeDelta: 1.0, longitudeDelta: 1.0)),
                       animated: true)
         mapView.addAnnotation(pin)
         LocationManager.shared.resolveLocationName(with: location) { [weak self] locationName in
