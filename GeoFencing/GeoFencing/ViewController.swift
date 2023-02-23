@@ -34,9 +34,6 @@ class ViewController: UIViewController {
                                              span: MKCoordinateSpan(latitudeDelta: 1.0, longitudeDelta: 1.0)),
                       animated: true)
         mapView.addAnnotation(pin)
-        LocationManager.shared.resolveLocationName(with: location) { [weak self] locationName in
-            self?.title = locationName
-        }
     }
 }
 

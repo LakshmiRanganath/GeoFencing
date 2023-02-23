@@ -73,7 +73,7 @@
          </BuildableReference>
       </BuildableProductRunnable>
       <LocationScenarioReference
-         identifier = "../../../../Downloads/LocationsForSimulation.gpx"
+         identifier = "../../../../../LocationsForSimulation.gpx"
          referenceType = "0">
       </LocationScenarioReference>
    </LaunchAction>
